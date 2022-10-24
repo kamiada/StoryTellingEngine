@@ -1,6 +1,6 @@
 import React from "react";
 
-export const TextBox = () => {
+export const TextBox = (textToDisplay) => {
 
 }
 
