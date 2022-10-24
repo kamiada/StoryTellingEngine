@@ -1,10 +1,13 @@
 import React from "react";
 import { Container, StyledButton } from "./Button.styles";
 
-export const Button = (onClick, path, icon) => {
+export const Button = (path, icon) => {
+    const handleClick = () => {
+        console.log('Click happened');
+      };
 return(
     <Container>
-        <StyledButton onClick={onClick} path={path} />
+        <StyledButton onClick={() => handleClick()} path={path} />
     </Container>
 )
 }
