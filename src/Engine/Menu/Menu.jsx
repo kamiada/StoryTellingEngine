@@ -1,14 +1,19 @@
 import React from "react";
-import { Container } from './Menu.styles';
+import { Container, Title, Paragraph } from "./Menu.styles";
 import { Button } from "../components";
 
 export const Menu = () => {
- return (
+  return (
     <Container>
-        Menu
-        <Button onClick={() => console.log("here")} />
+      <Title>Welcome to Storytelling Engine</Title>
+      <Paragraph>
+        In order to start building your own visual novel, click the button
+        below. If you need a tutorial, please click on the "Start tutorial"
+        button{" "}
+      </Paragraph>
+      <Button onClick={() => console.log("here")} title="Start"></Button>
     </Container>
- )
-}
+  );
+};
 
 export default Menu;
