@@ -3,6 +3,7 @@ import { Container, Title, Paragraph } from "./Menu.styles";
 import { Button } from "../components";
 
 export const Menu = () => {
+
   return (
     <Container>
       <Title>Welcome to Storytelling Engine</Title>
