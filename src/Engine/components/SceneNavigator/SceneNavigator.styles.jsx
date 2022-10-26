@@ -1,10 +1,3 @@
-import React from "react";
+import styled from "styled-components";
 
-export const SceneNavigator = () => {
-
-  return (
-   <div>SceneNavigator</div>
-  );
-};
-
-export default SceneNavigator;
+export const Container = styled.div``;

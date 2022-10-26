@@ -1,9 +1,13 @@
 import React from "react";
+import { Container } from "./SceneMaker.styles";
+import { SceneNavigator } from "../components";
 
 export const SceneMaker = () => {
 
   return (
-   <div>Boo</div>
+   <Container>
+    <SceneNavigator/>
+   </Container>
   );
 };
 
