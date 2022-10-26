@@ -1,19 +1,26 @@
 import React from "react";
-import { Container, Title, Paragraph } from "./Menu.styles";
-import { Button } from "../components";
+import { Container, Title, Paragraph, MenuHolder } from "./Menu.styles";
+import {
+    Link
+  } from "react-router-dom";
 
 export const Menu = () => {
-
+    const testingFunction = () => {
+        console.log('here');
+    };
   return (
     <Container>
-      <Title>Welcome to Storytelling Engine</Title>
-      <Paragraph>
-        In order to start building your own visual novel, click the button
-        below. If you need a tutorial, please click on the "Start tutorial"
-        button{" "}
-      </Paragraph>
-      <Button onClick={() => console.log("here")} title="Start"></Button>
-      <Button onClick={() => console.log("here")} title="Tutorial"></Button>
+      <MenuHolder>
+        <Title>Welcome to Storytelling Engine</Title>
+        <Paragraph>
+          In order to start building your own visual novel, click the button
+          below. If you need a tutorial, please click on the "Start tutorial"
+          button{" "}
+        </Paragraph>
+        <nav>
+        <Link to="/scene">Start Creating Your Own Visual Novel</Link>
+      </nav>
+      </MenuHolder>
     </Container>
   );
 };

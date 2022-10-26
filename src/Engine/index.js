@@ -1,3 +1,4 @@
 import Menu from "./Menu/Menu";
+import SceneMaker from './SceneMaker/SceneMaker';
 
-export {Menu};
+export { Menu, SceneMaker };
