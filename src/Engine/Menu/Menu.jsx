@@ -12,6 +12,7 @@ export const Menu = () => {
         button{" "}
       </Paragraph>
       <Button onClick={() => console.log("here")} title="Start"></Button>
+      <Button onClick={() => console.log("here")} title="Tutorial"></Button>
     </Container>
   );
 };
