@@ -5,9 +5,6 @@ import {
   } from "react-router-dom";
 
 export const Menu = () => {
-    const testingFunction = () => {
-        console.log('here');
-    };
   return (
     <Container>
       <MenuHolder>
@@ -18,7 +15,7 @@ export const Menu = () => {
           button{" "}
         </Paragraph>
         <Navigation>
-        <Link style={{margin: "5px"}} to="/scene">Start Creating Your Own Visual Novel</Link>
+        <Link style={{margin: "5px"}} to="/engine">Start Creating Your Own Visual Novel</Link>
         <Link to="/tutorial">Check out tutorial to learn how the engine works!</Link>
       </Navigation>
       </MenuHolder>

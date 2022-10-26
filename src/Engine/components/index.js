@@ -1,2 +1,3 @@
 import { Button } from "./Button";
-export { Button };
+import { SceneNavigator } from "./SceneNavigator/SceneNavigator.styles";
+export { Button, SceneNavigator };
