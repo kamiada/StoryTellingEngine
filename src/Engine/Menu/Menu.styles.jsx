@@ -15,3 +15,9 @@ export const Title = styled.h1`
 export const Paragraph = styled.p`
 
 `;
+
+export const PanelRightMovement = styled.div`
+`;
+
+export const PanelLeftMovement = styled.div`
+`;

@@ -5,6 +5,9 @@
 - React bootstrap
 - Styled components
 
+## Used open source medias
+- Unsplash free API for images
+
 
 ## Scripts
 
