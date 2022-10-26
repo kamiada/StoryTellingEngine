@@ -9,22 +9,22 @@ export const MenuHolder = styled.div`
   z-index: 2;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h1``;
 
-`;
-
-export const Paragraph = styled.p`
-
-`;
+export const Paragraph = styled.p``;
 
 export const Panel = styled.div`
-    width: 100%;
-    height: 33.33%;
-    background-color: pink;
-    filter: grayscale(80%);
-    z-index: 100;
+  width: 100%;
+  height: 33.33%;
+  background-color: pink;
+  filter: grayscale(80%);
+  z-index: 100;
 `;
 
-export const Container = styled.div`
+export const Container = styled.div``;
 
+export const Navigation = styled.nav`
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 `;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Title, Paragraph, MenuHolder } from "./Menu.styles";
+import { Container, Title, Paragraph, MenuHolder, Navigation } from "./Menu.styles";
 import {
     Link
   } from "react-router-dom";
@@ -17,9 +17,10 @@ export const Menu = () => {
           below. If you need a tutorial, please click on the "Start tutorial"
           button{" "}
         </Paragraph>
-        <nav>
-        <Link to="/scene">Start Creating Your Own Visual Novel</Link>
-      </nav>
+        <Navigation>
+        <Link style={{margin: "5px"}} to="/scene">Start Creating Your Own Visual Novel</Link>
+        <Link to="/tutorial">Check out tutorial to learn how the engine works!</Link>
+      </Navigation>
       </MenuHolder>
     </Container>
   );
