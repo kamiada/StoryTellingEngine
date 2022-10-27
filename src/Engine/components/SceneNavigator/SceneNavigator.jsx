@@ -1,10 +1,12 @@
 import React from "react";
-import {Container} from './SceneNavigator.styles'
+import {Container, Navigator} from './SceneNavigator.styles'
 
 export const SceneNavigator = (props) => {
 return(
     <Container>
-        SceneNavigator
+        <Navigator>
+            <a>Here</a>
+        </Navigator>
     </Container>
 )
 }
