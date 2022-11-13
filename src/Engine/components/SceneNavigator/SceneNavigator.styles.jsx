@@ -13,3 +13,7 @@ background-color: #000;
 overflow-x: hidden;
 padding-top: 20px;
 `;
+
+export const Miniscene = styled.a `
+
+`;
