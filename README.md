@@ -8,6 +8,10 @@
 ## Used open source medias
 - Unsplash free API for images
 
+## Structure
+1. Game engine - user here uses interface to create Acts and fills Acts with Text, Images and choices. 
+2. Game engine - user is able to connect Acts and store Choices in a visual tree, letting user to connect paths together. 
+3. Game engine - user is able to publish their work as JSON (or XML?) script.
 
 ## Scripts
 
